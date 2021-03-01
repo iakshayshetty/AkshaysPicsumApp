@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         listResponse.setAuthor(jsonObject.getString("author"));
                         listResponse.setFilename(jsonObject.getString("filename"));
                         Log.d("@@AK id", jsonObject.getString("id"));
-                        Log.d("@@AK author", jsonObject.getString("author"));
-                        Log.d("@@AK filename", jsonObject.getString("filename"));
+                     
                         listDataArray.add(listResponse);
                     } catch (JSONException e) {
                         e.printStackTrace();
